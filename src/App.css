@@ -47,3 +47,11 @@ span{
 .count{
     margin-bottom: 1rem;
 }
+.clear{
+    margin-left: 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 5rem;
+}
