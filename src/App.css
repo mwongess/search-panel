@@ -1,0 +1,43 @@
+form{
+
+}
+.home{
+    padding: 2.5rem;
+}
+.home .search{
+    display: flex;
+    gap: 2rem;
+}
+input,button{
+    height: 3rem;
+}
+input{
+    width: 21rem;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 1rem;
+}
+button{
+    width: 4rem;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 1rem;
+}
+.main{
+    padding:1.5rem 6rem;
+}
+.country{
+    border: 1px solid black;
+    padding: 1rem;
+}
+span{
+    font-weight: bold;
+    margin-right: 0.5rem
+}
+.count{
+    margin-bottom: 1rem;
+}
