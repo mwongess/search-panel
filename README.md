@@ -9,22 +9,18 @@ Accepts country ,searches and displays all  universities based on country.
 ### Guide
 
 
-#### 1
 ```sh
     git clone https://github.com/mwongess/search-panel.git
 ```
 
-#### 2
 ```sh
     cd search-panel
 ```
 
-#### 3
 ```sh
     npm i
 ```
 
-#### 4
 ```sh
     npm run dev
 ```
