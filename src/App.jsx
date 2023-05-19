@@ -9,6 +9,7 @@ function App() {
   const handleInput = (e) => {
     const { name, value } = e.target;
     setSearchString(value);
+    setState('')
   };
 
   const onSubmitHandler = (e) => {
@@ -17,11 +18,6 @@ function App() {
     console.log(name);
   };
 
-  const clearForm = () => {
-    setState("");
-    setSearchString("");
-    setUniversities([]);
-  };
   useEffect(() => {
     const fetchCountries = async () => {
       if (!state) {
@@ -46,14 +42,13 @@ function App() {
           <form onSubmit={onSubmitHandler}>
             <div className="">
               <input
-                type="text"
+                type="searh"
                 onChange={handleInput}
                 placeholder="Search university using state"
                 value={searchString}
                 name="country"
               />
               <button type="submit">Search</button>
-              <button className="clear" onClick={clearForm}>Clear</button>
             </div>
           </form>
         </div>
@@ -62,7 +57,7 @@ function App() {
       <div className="main">
         <div className="count">
           <h3>
-            {!searchString && !universities[0]
+            {(!state && !universities[0])
               ? "No results found"
               : universities.length + " Universities in " + searchString}
           </h3>
