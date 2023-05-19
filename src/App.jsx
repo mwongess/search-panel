@@ -9,7 +9,7 @@ function App() {
   const handleInput = (e) => {
     const { name, value } = e.target;
     setSearchString(value);
-    setState('')
+    setState("");
   };
 
   const onSubmitHandler = (e) => {
@@ -57,7 +57,7 @@ function App() {
       <div className="main">
         <div className="count">
           <h3>
-            {(!state && !universities[0])
+            {!state && !universities[0]
               ? "No results found"
               : universities.length + " Universities in " + searchString}
           </h3>
