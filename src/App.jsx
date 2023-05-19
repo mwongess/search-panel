@@ -34,7 +34,7 @@ function App() {
       <div className="home">
         <div className="search">
           <div>
-            <h1>SearchpaneL</h1>
+            <h1>SEARCH PANEL</h1>
           </div>
           <form>
             <div className="">

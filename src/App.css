@@ -3,6 +3,10 @@ form{
 }
 .home{
     padding: 2.5rem;
+    
+}
+.search{
+    align-items: center;
 }
 .home .search{
     display: flex;
@@ -10,6 +14,7 @@ form{
 }
 input,button{
     height: 3rem;
+    border: 1px solid black;
 }
 input{
     width: 21rem;
@@ -31,8 +36,9 @@ button{
     padding:1.5rem 6rem;
 }
 .country{
-    border: 1px solid black;
-    padding: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding:2.5rem 1rem;
+    border-radius: 5px;
 }
 span{
     font-weight: bold;
