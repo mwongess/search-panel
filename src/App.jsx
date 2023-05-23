@@ -23,7 +23,7 @@ function App() {
       if (!state) {
         setUniversities([]);
       } else {
-        const url = `http://universities.hipolabs.com/search?country=${state}`;
+        const url = `https://universitiesapi.onrender.com/v1/api/universities/${state}`;
         const res = await fetch(url);
         const data = await res.json();
         setUniversities(data);
@@ -70,10 +70,6 @@ function App() {
                 <p>
                   <span>Name:</span>
                   {university.name}
-                </p>
-                <p>
-                  <span>Domains:</span>
-                  {university.domains[0]}
                 </p>
                 <p>
                   <span>Web Pages:</span>
