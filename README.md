@@ -1,6 +1,6 @@
 # Search panel
 
-Accepts country ,searches and displays all  universities based on country.
+Accepts country ,searches and displays all  universities in the searched country.
 
 [Live Site](https://recherche-panel.netlify.app/).
 
